@@ -1,0 +1,21 @@
+-- -- Categories table
+-- CREATE TABLE categories (
+--     id INT PRIMARY KEY AUTO_INCREMENT,
+--     name VARCHAR(50) NOT NULL,
+--     description TEXT
+-- );
+
+-- -- Products table
+-- CREATE TABLE products (
+--     id INT PRIMARY KEY AUTO_INCREMENT,
+--     name VARCHAR(100) NOT NULL,
+--     description TEXT,
+--     price DECIMAL(10,2) NOT NULL,
+--     image_path VARCHAR(255) NOT NULL,
+--     category_id INT,
+--     is_new BOOLEAN DEFAULT FALSE,
+--     is_best_seller BOOLEAN DEFAULT FALSE,
+--     is_promo BOOLEAN DEFAULT FALSE,
+--     promo_price DECIMAL(10,2),
+--     FOREIGN KEY (category_id) REFERENCES categories(id)
+-- );
